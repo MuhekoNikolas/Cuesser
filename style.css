@@ -1,0 +1,98 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background:black;
+
+  
+}
+
+#Container{
+  width:auto;
+  height:auto;
+}
+
+#divsContainer{
+  position:relative;
+  width:100vw;
+  height:auto;
+  background:black;
+
+  display:grid;
+  grid-template-columns:repeat(5,auto);
+  overflow:none;
+
+  top:50px;
+  /*/
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  /*/
+  
+}
+
+.choiceDivs{
+  width:29vw;
+  height:150px;
+  background:linear-gradient(blue,orange);
+  /*/
+  background:url("https://thumbs.dreamstime.com/b/illustrating-red-pick-me-sign-against-white-background-177557716.jpg");
+  
+  background-size:100%;
+  background-repeat:no-repeat;
+  /*/
+  
+  margin-right:1vw;
+
+  text-align:center;
+  
+}
+
+.choiceText{
+  padding:10px;
+  font-size:50px;
+}
+
+#winningContainer{
+  
+  width:100vw;
+  height:auto;
+  position:relative;
+  background:black;
+  text-align:center;
+}
+
+#Win{
+ 
+  font-size:60px;
+  color:white;
+}
+
+#playAgainButton{
+  width:auto;
+  height:auto;
+  color:orange;
+  background:none;
+  border:none;
+  font-size:50px;
+  position:relative;
+}
+
+#nextButton{
+  width:auto;
+  height:auto;
+  color:orange;
+  background:none;
+  border:none;
+  font-size:50px;
+  position:relative;
+}
+
+#backButton{
+  width:auto;
+  height:auto;
+  color:orange;
+  background:none;
+  border:none;
+  font-size:50px;
+  position:relative;
+}
